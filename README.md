@@ -6,4 +6,4 @@
 5. Accordingly create a database and its name blog <br>
 If DB_USERNAME and DB_PASSWORD necessary it is good enough. Otherwise root name remove <br>
 6. Run `php artisan migrate:fresh --seed` <br>
-7. After that php artisan serve`
+7. After that run `php artisan serve`
