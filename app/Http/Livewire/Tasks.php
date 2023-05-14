@@ -8,9 +8,7 @@ use App\Models\SubCategory;
 
 class Tasks extends Component
 {
-    public $category;
-    public $subcategory;
-    public $category_id;
+    public $category, $subcategory, $category_id;
 
     public function render()
     {
@@ -21,9 +19,4 @@ class Tasks extends Component
             ->get();
         return view('livewire.tasks');
     }
-
-    // public function updatedCategoryId()
-    // {
-    //     $this->subcategory = SubCategory::where('category_id', $this->category_id)->get();
-    // }
 }
